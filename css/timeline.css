@@ -1,0 +1,13 @@
+.timeline {
+    text-align: center;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.body hr {
+    display: block;
+    border: 1px solid #705d56;
+    background-color: #705d56;
+    width: 75%;
+    opacity: 0.5;
+}

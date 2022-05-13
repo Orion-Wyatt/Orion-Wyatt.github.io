@@ -8,29 +8,32 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <meta name="author" content="Orion Wyatt">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     </head>
     <body>
+        <!--Navigation Menu Overlay - START-->
+        <div id="nav-menu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <p>&#9751; Welcome!</p>
+                <hr>
+                <a href="timeline.html">History Timeline</a>
+                <hr>
+                <a href="workinprogress.html">About Me</a>
+            </div>
+        </div>
+        <!--Navigation Menu Overlay - END-->
+
         <div class="site">
             <div class="header">
                 <div class="logo">
                     <img src="assets/img/header-logo.png" alt="Signiture" height="78px" width="78px">
-                </div>
+                </div>    
                 <div class="header-title">
                     <h1>Welcome!</h1>
                 </div>
                 <div class="navigation">
-                    <button class="dropbtn">MENU</button>
-                    <div class="dropdown-content">
-                        <hr>
-                        <p>Welcome!</p>
-                        <hr>
-                        <a href="education.html">History</a>
-                        <hr>
-                        <a href="mywork.html">My Work</a>
-                        <hr>
-                        <a href="intandhob.html">Interests & Hobbies</a>
-                        <hr>
-                    </div>
+                    <span class="dropbtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
                 </div>
             </div>
             <hr>
@@ -48,13 +51,14 @@
             <div class="footer">
                 <p class="footer-text">This site was last updated: <i>22st March, 2022</i></p>
                 <p class="footer-heading">External Links</p>
-                <p class="footer-text"><a href="https://docs.google.com/document/d/1xvPlnO-MMByNCzxObUW_Wf7pKQhAFDuLzfiBjq0IQ4U/edit?usp=sharing" target="_blank">CV</a></p>
-                <p class="footer-text"><a href="mailto:2020owyatt@gmail.com" title="2020owyatt@gmail.com">Email</a></p>
+                <p class="footer-text footer-missing"><a href="https://docs.google.com/document/d/1xvPlnO-MMByNCzxObUW_Wf7pKQhAFDuLzfiBjq0IQ4U/edit?usp=sharing" target="_blank">CV</a></p>
+                <p class="footer-text footer-missing"><a href="mailto:2020owyatt@gmail.com" title="2020owyatt@gmail.com">&#9993; Email</a></p>
                 <br>
                 <p class="copyright">© Orion Wyatt 2021</p>
             </div>
         </div>
         <div class="java">
+            <script src="js/nav-menu.js"></script>
         </div>
     </body>
 </html>
