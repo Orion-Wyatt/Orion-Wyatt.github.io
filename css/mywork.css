@@ -1,24 +1,30 @@
-.body h1 {
+.body {
     text-align: center;
-    text-decoration: underline;
+}
+
+.units {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.key {
-    text-align: center;
+.units button {
+    border: none;
+    color: #f0f7f4;
+    background-color: #32292f;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid #82bfb8;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight: bold;
 }
 
-.style {
-    text-align: center;
-}
-
-.unit-13 {
-    display: flex;
-    justify-content: center;
-}
-
-.u13-interactive {
-    border: 1px solid #32292f;
+.units button:hover {
+    background-color: #f0f7f4;
+    border-color: #32292f;
+    color: #82bfb8;
+    transition: 0.8s;
 }

@@ -10,6 +10,21 @@
         <meta name="author" content="Orion Wyatt">
     </head>
     <body>
+        <!--Navigation Menu Overlay - START-->
+        <div id="nav-menu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">&#9751; Welcome!</a>
+                <hr>
+                <a href="education.html">History</a>
+                <hr>
+                <p href="mywork.html">My Work</p>
+                <hr>
+                <a href="intandhob.html">Interests & Hobbies</a>
+            </div>
+        </div>
+        <!--Navigation Menu Overlay - END-->
+
         <div class="site">
             <div class="header">
                 <div class="logo">
@@ -19,40 +34,35 @@
                     <h1>My Work</h1>
                 </div>
                 <div class="navigation">
-                    <button class="dropbtn">MENU</button>
-                    <div class="dropdown-content">
-                        <hr>
-                        <a href="index.html">Welcome!</a>
-                        <hr>
-                        <a href="education.html">History</a>
-                        <hr>
-                        <p>My Work</p>
-                        <hr>
-                        <a href="intandhob.html">Interests & Hobbies</a>
-                        <hr>
-                    </div>
+                    <span class="dropbtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
                 </div>
             </div>
             <hr>
             <div class="body">
-                <h1><u>2020-2021 Collage L2 Computing Course - Unit 13</u></h1>
-                <p class="key"><i>(Interactive)</i></p>
-                <div class="unit-13">
-                    <iframe class="u13-interactive" src="assets/interactive/CPL2-U13/pageone.html" width="1100px" height="700px"></iframe>
+                <h1><u>2021 - 2022 Course Units:</u></h1>
+                <div class="units">
+                    <a href="mywork-subpage/unit1.html"><button>Unit 1:<br>The Online<br>World</button></a>
+                    <a href="mywork-subpage/unit2.html"><button>Unit 2:<br>Technology<br>Systems</button></a>
+                    <a href="mywork-subpage/unit6.html"><button>Unit 6:<br>Creating Digital<br>Graphics</button></a>
+                    <a href="mywork-subpage/unit10.html"><button>Unit 10:<br>Database<br>Development</button></a>
+                    <a href="mywork-subpage/unit13.html"><button>Unit 13:<br>Website<br>Development</button></a>
                 </div>
-                <p class="style">The above site was my unit 13 project. The project was to design and build a phone store for an imaginary client.<br>As you can tell, it also has a similar theme to this website.<br>A design I'm personally quite fond of.<br>And, still being young, the internet was quite useful in supplying tools to help build it, to make it more creative. As it is in this one.</p>
+                <hr>
+                <h1><u>2021-2022 - <a href="https://qualifications.pearson.com/en/qualifications/btec-firsts/information-and-creative-technology-2012-nqf.html">BETC Information and Creative Technology Level 2</a>:</u></h1>
+                <p></p>
             </div>
             <hr>
             <div class="footer">
-                <p class="footer-text">This site was last updated: <i>22st March, 2022</i></p>
+                <p class="footer-text">This site was last updated: <i>17th May, 2022</i></p>
                 <p class="footer-heading">External Links</p>
-                <p class="footer-text"><a href="https://docs.google.com/document/d/1xvPlnO-MMByNCzxObUW_Wf7pKQhAFDuLzfiBjq0IQ4U/edit?usp=sharing" target="_blank">CV</a></p>
-                <p class="footer-text"><a href="mailto:2020owyatt@gmail.com" title="2020owyatt@gmail.com">Email</a></p>
+                <p class="footer-text"><a href="assets/pdf/cv.pdf" target="_blank">CV</a></p>
+                <p class="footer-text"><a href="mailto:2020owyatt@gmail.com" title="2020owyatt@gmail.com">&#128387; Email</a></p>
                 <br>
-                <p class="copyright">© Orion Wyatt 2021</p>
+                <p class="copyright">&#169; Orion Wyatt 2021</p>
             </div>
         </div>
         <div class="java">
+            <script src="js/nav-menu.js"></script>
         </div>
     </body>
 </html>
